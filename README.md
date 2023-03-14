@@ -1,3 +1,5 @@
+![craiyon_003550_mars_with_martians_flying_around_with_news_cameras_](https://user-images.githubusercontent.com/52866379/224894439-ee938a34-109c-4036-925a-19d68132c831.png)
+
 # Introduction
 
 This is a web scraping project that retrieves and analyzes news titles and previews from the Mars Exploration Program website, as well as temperature and atmospheric pressure data from the Mars Temperature Data Site. The project uses Python and several libraries, including Splinter and BeautifulSoup, to automate web browsing and extract data from HTML tables. The extracted data is then stored in a Pandas DataFrame for analysis.
