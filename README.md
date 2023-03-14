@@ -12,7 +12,7 @@ The data types of the columns are then examined, and any necessary conversions a
 
 Finally, the DataFrame is analyzed using Pandas functions to answer several questions about the weather data on Mars:
 
-# How many months are there on Mars?
+How many months are there on Mars?
 How many Martian days' worth of data are there?
 What is the average low temperature by month?
 Which months have the lowest and highest atmospheric pressure on Mars?
