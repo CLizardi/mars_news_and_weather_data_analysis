@@ -5,7 +5,7 @@ This is a web scraping project that retrieves and analyzes news titles and previ
 # Deliverable 1: Scraping Titles and Preview Text from Mars News
 The first step in this project was to visit the Mars news site at https://static.bc-edx.com/data/web/mars_news/index.html and extract the text elements from the page. A Beautiful Soup object is created from the HTML content, and the text elements are extracted and stored in a list of dictionaries. Each dictionary contains two keys: title and preview, which correspond to the title and preview text of a single news article.
 
-# Deliverable 2: Scraping and Analyzing Mars Weather Data
+#Deliverable 2: Scraping and Analyzing Mars Weather Data
 The second step in this project was to visit the Mars Temperature Data Site at https://static.bc-edx.com/data/web/mars_facts/temperature.html and extract the data from the HTML table. A Beautiful Soup object is created from the HTML content, and the rows of data are extracted and stored in a list. The list is then converted into a Pandas DataFrame for analysis.
 
 The data types of the columns are then examined, and any necessary conversions are performed to cast the data into the appropriate datetime, int, or float data types.
