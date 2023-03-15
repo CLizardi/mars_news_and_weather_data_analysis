@@ -20,5 +20,5 @@ What is the average low temperature by month?
 Which months have the lowest and highest atmospheric pressure on Mars?
 About how many terrestrial (Earth) days exist in a Martian year?
 
-# Conclusion
-This project demonstrates the use of web scraping and data analysis techniques to retrieve and analyze news and weather data from websites. The results of the analysis provide insights into the conditions on Mars, and the project can be expanded to include additional data sources or analysis techniques as desired.
+# Lessons Learned
+In this project, we learned about the application of web scraping and data analysis techniques to retrieve and analyze news and weather data from websites. We gained practical experience in using libraries such as BeautifulSoup and Pandas to extract information and perform analysis. Additionally, we learned about the importance of data cleaning and preprocessing in order to obtain accurate and meaningful results. Overall, this project provided a hands-on opportunity to apply skills in data retrieval and analysis, and highlights the potential of such techniques to uncover valuable insights from online information.
