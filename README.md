@@ -1,4 +1,4 @@
-# Mars News and Weather Data Analysis1
+# Mars News and Weather Data Analysis
 ![craiyon_003550_mars_with_martians_flying_around_with_news_cameras_](https://user-images.githubusercontent.com/52866379/224894439-ee938a34-109c-4036-925a-19d68132c831.png)
 
 # Introduction
