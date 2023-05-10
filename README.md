@@ -1,24 +1,34 @@
+# Mars News and Weather Data Analysis
 ![craiyon_003550_mars_with_martians_flying_around_with_news_cameras_](https://user-images.githubusercontent.com/52866379/224894439-ee938a34-109c-4036-925a-19d68132c831.png)
 
 # Introduction
+This project involved scraping and analyzing data from various sources related to Mars. In the first part of the project, I scraped the titles and preview text of news articles from the Mars News website. In the second part, I scraped and analyzed Mars weather data, which existed in a table. The aim was to strengthen my skills in collecting, organizing, storing, analyzing data, and then visually communicating my insights.
 
-This is a web scraping project that retrieves and analyzes news titles and previews from the Mars Exploration Program website, as well as temperature and atmospheric pressure data from the Mars Temperature Data Site. The project uses Python and several libraries, including Splinter and BeautifulSoup, to automate web browsing and extract data from HTML tables. The extracted data is then stored in a Pandas DataFrame for analysis.
+# Project Overview
+## Part 1: Scrape Titles and Preview Text from Mars News
 
-# Deliverable 1: Scraping Titles and Preview Text from Mars News
-The first step in this project was to visit the Mars news site at https://static.bc-edx.com/data/web/mars_news/index.html and extract the text elements from the page. A Beautiful Soup object is created from the HTML content, and the text elements are extracted and stored in a list of dictionaries. Each dictionary contains two keys: title and preview, which correspond to the title and preview text of a single news article.
+* Used automated browsing to visit the Mars News site and extracted HTML code using Beautiful Soup
+* Scraped and extracted the titles and preview text of the news articles
+* Stored the scraped information in a Python data structure - a list of dictionaries
+* Exported the scraped data to a JSON file
 
-# Deliverable 2: Scraping and Analyzing Mars Weather Data
-The second step in this project was to visit the Mars Temperature Data Site at https://static.bc-edx.com/data/web/mars_facts/temperature.html and extract the data from the HTML table. A Beautiful Soup object is created from the HTML content, and the rows of data are extracted and stored in a list. The list is then converted into a Pandas DataFrame for analysis.
+## Part 2: Scrape and Analyze Mars Weather Data
+* Used automated browsing to visit the Mars Temperature Data Site and extracted HTML code using Beautiful Soup
+* Scraped and assembled the data into a Pandas DataFrame
+* Analyzed the data to answer several questions related to Mars weather such as how many months exist on Mars, how many Martian days' worth of data there are, which month on average has the lowest/highest temperature/atmospheric pressure, and how many terrestrial days exist in a Martian year
+* Created data visualizations to support the analysis
+* Exported the DataFrame to a CSV file
 
-The data types of the columns are then examined, and any necessary conversions are performed to cast the data into the appropriate datetime, int, or float data types.
+# Tools Used
+* Python
+* Jupyter Notebook
+* Pandas
+* Beautiful Soup
+* Splinter
+* Matplotlib
 
-Finally, the DataFrame is analyzed using Pandas functions to answer several questions about the weather data on Mars:
+# What I Learned
+Through this project, I gained valuable experience in web scraping and data analysis. I learned how to use automated browsing with Splinter and HTML parsing with Beautiful Soup to extract information from web pages. I also improved my data manipulation and analysis skills using Pandas and data visualization skills using Matplotlib.
 
-How many months are there on Mars?
-How many Martian days' worth of data are there?
-What is the average low temperature by month?
-Which months have the lowest and highest atmospheric pressure on Mars?
-About how many terrestrial (Earth) days exist in a Martian year?
-
-# Lessons Learned
-I learned about the application of web scraping and data analysis techniques to retrieve and analyze news and weather data from websites. I gained practical experience in using libraries such as BeautifulSoup and Pandas to extract information and perform analysis. Additionally, I learned about the importance of data cleaning and preprocessing in order to obtain accurate and meaningful results. Overall, this project provided a hands-on opportunity to apply skills in data retrieval and analysis, and highlights the potential of such techniques to uncover valuable insights from online information.
+# Conclusion
+This project was a great learning experience in scraping and analyzing data related to Mars. I was able to apply my skills in Python, Pandas, Beautiful Soup, and Matplotlib to extract and analyze information from various sources. Overall, this project has helped me strengthen my skills in collecting, organizing, storing, analyzing data, and visually communicating my insights.
